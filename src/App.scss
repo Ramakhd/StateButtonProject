@@ -1,0 +1,205 @@
+@font-face {
+  font-family: "OpenSans";
+  src: local("OpenSansItalic"),
+    url("./fonts/OpenSans-SemiBoldItalic.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "OpenSansLightItalic";
+  src: local("OpenSansItalic"),
+    url("./fonts/OpenSans-LightItalic.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "OpenSansLight";
+  src: local("OpenSansItalic"),
+    url("./fonts/OpenSans-Light.ttf") format("truetype");
+  font-weight: normal;
+}
+.AppContainer {
+  background-color: #1f3a6e;
+  height: 100%;
+  //padding: 10px;
+}
+.tabList {
+  margin: 0; // to disable the ul tag margin
+  padding-inline-start: unset; // to disaple ul padding
+  display: flex;
+  color: #a2aec8;
+  height: 90px;
+  align-items: center;
+  padding: 0 0 0 40px;
+  list-style-type: none;
+  background: linear-gradient(80deg, #254176 11%, #1c3668 95%);
+  font-family: "OpenSans";
+  //padding: 10px;
+}
+
+.tabStyle {
+  &.react-tabs__tab--selected {
+    color: #ffffff;
+    //border-bottom: 2px solid white;
+    &:after {
+      content: "";
+      border-bottom: 2px solid white;
+      width: 50%;
+      display: block;
+      //margin: 0 auto;
+    }
+  }
+  &:hover {
+    color: rgb(214, 219, 230);
+    //background-color: #3b5e7a;
+    //border: 1px solid;
+    //border-radius: 10%;
+    //box-shadow: 5px 5px 5px #cbd0d8 inset;
+  }
+  padding: 10px;
+  cursor: pointer;
+}
+.big-container {
+  width: 0%;
+}
+.PanelStyle {
+  padding: 50px 30px;
+}
+.imageGride {
+  cursor: pointer;
+  height: 150px;
+  width: 150px;
+  border-radius: 20%;
+}
+.imageViewer {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 30px;
+
+  .imagesList {
+    display: grid;
+    padding: unset;
+    grid-column-gap: 10px;
+    transition: all 0.3s linear;
+    width: 50%;
+    //align-self: center;
+  }
+  .SelectedImgContainer {
+    animation: fadeIn ease 2s;
+    display: flex;
+    flex-direction: column;
+  }
+  .big-container {
+    width: 50%;
+    transition: all 0.9s ease;
+    display: flex;
+    justify-content: center;
+  }
+}
+.container {
+  padding: 50px 30px;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.imagesList {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  row-gap: 50px;
+  margin-right: 20px;
+}
+
+.ImageCard {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+}
+
+.SelectedImg {
+  width: 600px;
+  height: 400px;
+}
+.ImgTitleSty {
+  color: white;
+  font-family: "OpenSans";
+  text-align: center;
+  display: block;
+}
+.ImgDescription {
+  font-family: "OpenSansLightItalic";
+  color: white;
+}
+
+.selectedTitle {
+  margin: 10px 0;
+  font-family: "OpenSans";
+  color: white;
+}
+.HeaderStyle {
+  display: flex;
+  align-items: center;
+}
+.billStyle {
+  margin: 0 40px;
+}
+.profileHeaderStyle {
+  margin: 0 10px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.absulote {
+  position: absolute;
+  //display: flex;
+}
+.welcomeStyle {
+  font-family: OpenSans;
+  color: #1e396c;
+}
+.HeaderContainer {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  justify-content: space-between;
+  padding: 10px;
+  height: 50px;
+}
+.LogoBarStyle {
+  background-color: #1f3a6e;
+  height: 100px;
+  align-items: center;
+  display: flex;
+  padding: 0 40px;
+}
+.relative {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.IconContainer {
+  display: flex;
+  align-items: center;
+}
+.CaptionContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.IconBarContainer {
+  padding-left: 500px;
+  display: flex;
+}
+.IconSpan {
+  font-family: OpenSansLight;
+  font-size: 12px;
+}
+.autherStyle {
+  display: flex;
+  align-items: center;
+}

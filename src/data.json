@@ -1,0 +1,69 @@
+[
+    {
+        "id":1,
+        "title":"Italian Trulli",
+        "src": "https://www.w3schools.com/html/pic_trulli.jpg",
+        "des":"Floral Frame Template With Blue Flowers",
+        "sliderImgs":[
+            {"url":"https://www.w3schools.com/howto/img_woods_wide.jpg"},
+            {"url":"https://www.w3schools.com/howto/img_mountains_wide.jpg"},
+            {"url":"https://www.w3schools.com/howto/img_nature_wide.jpg"}
+           
+        ]
+        
+    },
+        
+
+    {
+        "id":2,
+        "title":"Cinque Terre",
+        "src":"https://www.w3schools.com/css/img_5terre.jpg" , 
+        "des":"Floral Frame Template With Blue Flowers",
+        "sliderImgs":[
+            {"url":"https://www.w3schools.com/howto/img_snow_wide.jpg"},
+            {"url":"https://www.w3schools.com/w3images/paris.jpg"},
+            {"url":"https://www.w3schools.com/w3images/rocks.jpg"}
+           
+        ]
+    },
+        
+    {
+        "id":3,
+        "title":"Flowers in Chania",
+        "src":"https://www.w3schools.com/html/img_chania.jpg" , 
+        "des":"Floral Frame Template With Blue Flowers",
+        "sliderImgs":[
+            {"url":"https://www.w3schools.com/w3images/ocean.jpg"},
+            {"url":"https://www.w3schools.com/w3images/wedding.jpg"},
+            {"url":"https://www.w3schools.com/w3images/mountainskies.jpg"}
+           
+        ]
+    },
+
+    {
+        "id":4,
+        "title":"Northern Lights",
+        "src":"https://www.w3schools.com/css/lights600x400.jpg" , 
+        "des":"Floral Frame Template With Blue Flowers",
+        "sliderImgs":[
+            {"url":"https://www.w3schools.com/w3images/falls2.jpg"},
+            {"url":"https://www.w3schools.com/w3images/underwater.jpg"},
+            {"url":"https://www.w3schools.com/w3images/rocks.jpg"}
+           
+        ]
+    },
+
+    {
+        "id":5,
+        "title":"img_pink_flowers",
+        "src":"https://www.w3schools.com/tags/img_pink_flowers.jpg" , 
+        "des":"Floral Frame Template With Blue Flowers",
+        "sliderImgs":[
+            {"url":"https://www.w3schools.com/howto/img_snow_wide.jpg"},
+            {"url":"https://www.w3schools.com/w3images/paris.jpg"},
+            {"url":"https://www.w3schools.com/w3images/rocks.jpg"}
+           
+        ]
+    }
+    
+]
